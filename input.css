@@ -1,3 +1,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .heading:hover {
+    cursor: ponter;
+}
+
+.heading:hover,
+.heading.active {
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.heading >.active::after,
+.heading >:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>.active::after,
+.heading>ul:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>a.a2.active::after,
+.heading>ul>a.a2:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>a.a3.active::after,
+.heading>ul>a.a3:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>a.a4.active::after,
+.heading>ul>a.a4:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>a.a5.active::after,
+.heading>ul>a.a5:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>a.a6.active::after,
+.heading>ul>a.a6:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.heading>ul>a.a7.active::after,
+.heading>ul>a.a7:hover::after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+} */
