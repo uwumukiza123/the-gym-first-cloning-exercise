@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading {
+    width: 100%;
+    position: fixed;
+    display: flex ;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1em;
+    /* background: green; */
+    left: 0;
+    top: 0;
+    
+    
+}
+
+.lists {
+    display: none;
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 20px;
+    height: 0;
+    /* overflow: hidden; */
+    transition: all 0.3s linear;
+    padding: 0.5rem 1rem;
+}
+.lists >a:hover {
+    color: blue;
+    padding-left: 1.5rem;
+}
+
+.show-lists {
+    height: 10rem;
+}
+
+#cross-icon{
+    display: none;
+}
+
+.navbar-color{
+    background: #fff;
+    width: 100%;
+    color: black;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+
+}
+#bar-icon{
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .lists {
+        display: flex;
+    }
+    #bar-icon {
+        display: none;
+    }
+
+}
